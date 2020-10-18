@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>NpTronicsLk</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="50" width="50"></a>
+           <div class="collapse navbar-collapse" id="Navbar">
+               <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./products.html"><span class="fa fa-list fa-lg"></span> Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>        
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul> 
+                <span class="navbar-text">
+                    <a id="loginButton" role="button">
+                        <span class="fa fa-sign-in"></span> Login</a>
+                </span>   
+           </div>                 
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-7">
+                    <h1 id="head1">NpTronicsLk</h1>
+                    <h3 id="head2">Best place for your choice!!!</h3>
+                    <p><em>Our store carries a large assortment and quality assured products. 
+                        We are devoted to bringing you most major brands of mobile phones and accessories possible with the 
+                        strong relationship established with our corporate partners</em></p>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src = "img/logo.png" class="float-right" height="200" width="200">
+                </div>   
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid float-left"
+                                src="img/oneplusnord.jpg" alt="oneplusnord" height="400" width="400">
+                            <div class="carousel-caption d-none d-md-block text-right">
+                                <h2>OnePlus Nord <span class="badge badge-danger">SALE</span> <span class="badge badge-pill badge-default"></span></h2>
+                                <p class="d-none d-sm-block">The newest budget phone offering from OnePlus. 1+<br>Affordable price!!!<br>
+                                    This offer available until November </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/jbl.jpg" alt="jbl" height="400" width="400">
+                            <div class="carousel-caption d-none d-md-block text-right">
+                                <h2>JBL Tune 500BT | T500BT<br><span class="badge badge-danger">New</span> </h2>
+                                <p class="d-none d-sm-block">Hurry up!!!<br>Don't miss the chance.Limited stock available.</p>
+                            </div>
+                                
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/service.png" alt="service">
+                            <div class="carousel-caption d-none d-md-block text-right">
+                                <h2>Best of Best in Online</h2>
+                                <h4>More than 5 years experience</h4>
+                                <p class="d-none d-sm-block"></p>We are sincere & strive for the best of our customers!
+                                <br>NpTronicsLk is the trusted brand amoung thousands of customers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>Trending product in this Month</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/oneplusnord.jpg" alt="oneplusnord" height="100" width="200">
+                    <div class="media-body">
+                        <a href="./products.html" style="text-decoration:none">
+                            <h2 class="mt-0">OnePlus Nord <span class="badge badge-danger">HOT</span> 
+                                <span class="badge badge-pill badge-secondary">79990.00 LKR</span></h2>
+                        </a>                       
+                        <p class="d-none d-sm-block">The OnePlus Nord is a new budget offering from OnePlus, which manages to deliver a similar 
+                            Android experience as the OnePlus 8, but at a more affordable price. 
+                            OnePlus has kept all the staples such as the AMOLED display, Warp Charge fast charging, 
+                            and a big battery in the Nord</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-3">
+                <h3>This Month's Promotions</h3>
+            </div>
+            <div class="col col-sm col-md"> 
+                <div class="media">
+                    <div class="media-body">
+                        <a href="./products.html" style="text-decoration:none"><h2>Mi Band 5 <span class="badge badge-pill badge-success">4990.00 LKR</span></h2></a>
+                        <p class="d-none d-sm-block">Xiaomi is betting all its chickens on new features - the Mi Band 5 records more sports, 
+                            tracks sleep more intelligently and brings PAI - Personal Activity Intelligence mode. 
+                            There are also breathing exercises, stress monitoring, a camera shutter, 
+                            and women can track their monthly biological processes</p> 
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/miband.jpg" alt="miband">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>JBL's new member</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/jbl.jpg" alt="JBL">
+                    <div class="media-body">
+                        <a href="./products.html" style="text-decoration:none"><h2>JBL TUNE 500BT <span class="badge badge-pill badge-warning">12000.00 LKR</span></h2></a>                        
+                        <h4>Wireless | On Ear Headphones</h4>
+                            <ul>
+                                <li>Wireless Bluetooth Streaming</li>
+                                <li>JBL Pure Bass Sound</li>
+                                <li>Hands free calls</li>
+                                <li>16HR max battery life</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+ 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div  class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              40/1,Niyandagala,<br>
+		              Homagama<br>
+		              Sri Lanka<br>
+		              <i class="fa fa-phone fa-lg"></i> +94 71 7515 217<br>
+		              <i class="fa fa-fax fa-lg"></i> +94 71 7515 217<br>
+		              <i class="fa fa-envelope fa-lg"></i> <a href="mailto:nptronics2020@gmail.com">nptronics2020@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+   
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+
+</html>
